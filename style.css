@@ -10,11 +10,13 @@ header {
     align-items: center;
     flex-wrap: wrap;
 }    
+h1, h3 {
+    margin: 10px;
+}
 h1{
     padding: 5px 0px 5px 0px;
     height: 2;
     font-size: 250%;
-
 }
 header, h1, nav {
     background-image: url("https://wallpapercave.com/dwp2x/ZWb1ZEQ.jpg");
@@ -25,8 +27,9 @@ nav {
     flex-wrap: wrap;
 }
 nav a {
-    padding: 20px 50px;
-    color: rgb(160, 24, 119);
+    padding: 10px 60px;
+    color: rgb(210, 130, 186);
+    position: static;
 }
 nav a:hover {
     color: aquamarine;
@@ -35,6 +38,12 @@ nav a:hover {
     padding-left: 25px;
     text-align: justify;
     list-style-type: square;
+}
+.photo {
+    background-image: url("https://thumbs.dreamstime.com/z/female-silhoutte-avatar-default-profile-picture-photo-placeholder-vector-illustration-130555145.jpg");
+    align-items: flex-start;
+    text-align: left;
+    position: static;
 }
 main {
     margin-bottom: 50px;
@@ -55,7 +64,7 @@ main {
 .Aboutme, h2 {
     text-align: left;
     padding-left: 15px;
-    border-left: 5px solid aquamarine;
+    border-left: 5px solid rgb(227, 43, 169);
 }
 #About-Me div {
     display: flex !important;
@@ -71,7 +80,7 @@ main {
 }
 .item {
     border: 10px solid darkgreen;
-    color:rgb(160, 24, 119);
+    color:rgb(181, 11, 130);
     max-height: 100px;
     display: flex;
     align-items: flex-end;
