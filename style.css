@@ -1,21 +1,88 @@
 *{
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    background-color:
 }
 header {
-    color: pink;
-    background-color: aqua;
+    color: rgb(222, 97, 185);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}    
+h1{
+    padding: 5px 0px 5px 0px;
+    height: 2;
+    font-size: 250%;
+
+}
+header, h1, nav {
+    background-image: url("");
 }
 nav {
-    display: inline-flex;
-    color: pink;
-    text-align: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+nav a {
+    padding: 20px 50px;
+    color: rgb(160, 24, 119);
+}
+nav a:hover {
+    color: aquamarine;
 }
 #AboutMe {
     padding-left: 25px;
     text-align: justify;
     list-style-type: square;
+}
+main {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.page {
+    max-width: 85%;
+    margin: auto;
+}
+.Aboutme {
+    margin: 30px 0px;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.Aboutme, h2 {
+    text-align: left;
+    padding-left: 15px;
+    border-left: 5px solid aquamarine;
+}
+#About-Me div {
+    display: flex !important;
+    align-content: center;
+}
+.Aboutme p {
+    margin-bottom: 50px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item {
+    border: 10px solid darkgreen;
+    color:rgb(160, 24, 119);
+    max-height: 100px;
+    display: flex;
+    align-items: flex-end;
+    padding; 0px 0px 15px 0px;
+    margin: 5px;  
+}
+.item:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+}
+footer a {
+    padding: 20px 50px;
+    color: rgb(160, 24, 119);
 }
