@@ -85,8 +85,8 @@ main {
     max-height: 200px;
     display: flex;
     align-items: flex-end;
-    margin: 50px;  
-    padding: 50px;
+    margin: 200px;  
+    padding: 200px;
 
 }
 .item {
