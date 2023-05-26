@@ -47,7 +47,7 @@ img {
     float: right;
 }
 main {
-    margin-bottom: 50px;
+    margin-bottom: 50px;  
     margin-top: 50px;
 }
 .page {
@@ -79,14 +79,24 @@ main {
     flex-wrap: wrap;
     justify-content: center;
 }
+.item1 {
+    border: 10px solid darkgreen;
+    color:rgb(181, 11, 130);
+    max-height: 200px;
+    display: flex;
+    align-items: flex-end;
+    margin: 50px;  
+    padding: 50px;
+
+}
 .item {
     border: 10px solid darkgreen;
     color:rgb(181, 11, 130);
     max-height: 100px;
     display: flex;
     align-items: flex-end;
-    padding; 0px 0px 15px 0px;
-    margin: 10px;  
+    margin: 50px;  
+    padding: 50px;
 }
 .item:first-child {
     min-height: 200px;
@@ -95,4 +105,9 @@ main {
 footer a {
     padding: 20px 50px;
     color: rgb(160, 24, 119);
+}
+@media screen and (max-width: 200px) {
+    header {
+        background-color: rgb(239, 177, 222);
+    }
 }
